@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidebar = () => {
     return (
-        <div id='sidebar-div' className='col-3 d-flex flex-column align-items-center justify-content-center'>
+        <div id='sidebar-div' className='col-2 d-flex flex-column align-items-center justify-content-center'>
             <div className='card'>
                 <img src='./headshot.jpg' class='card-img-top' alt='sidebar logo' />
                 <div className='card-body'>
