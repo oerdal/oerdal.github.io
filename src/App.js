@@ -3,6 +3,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import "bootstrap/dist/css/bootstrap.css";
+import './styles.css';
 
 import Sidebar from './components/sidebar';
 import Navbar from './components/navbar';
