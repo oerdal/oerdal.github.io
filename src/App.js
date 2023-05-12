@@ -19,10 +19,10 @@ const App = () => {
             <div className='row flex-grow-1'>
                 <Sidebar />
                 <Routes>
-                    <Route exact path='/' element={<Home />} />
-                    <Route path='/projects' element={<Projects />} />
+                    <Route exact path='/projects' element={<Projects />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/stable-diffusion' element={<SD />} />
+                    <Route exact path='/' element={<Home />} />
                 </Routes>
             </div>
         </div>
