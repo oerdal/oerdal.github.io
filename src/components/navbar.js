@@ -6,12 +6,12 @@ const Navbar = () => {
         <div id='navbar-div' className='container'>
             <nav className='navbar navbar-expand-lg'>
                 <div className='container-fluid'>
-                    <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbar-contents' aria-controls='navbar-contents' aria-expanded='false' aria-label='Toggle navigation'>
+                    <button className='navbar-toggler mx-auto' type='button' data-bs-toggle='collapse' data-bs-target='#navbar-contents' aria-controls='navbar-contents' aria-expanded='false' aria-label='Toggle navigation'>
                         <span className='navbar-toggler-icon'></span>
                     </button>
                     <div className='collapse navbar-collapse' id='navbar-contents'>
-                        <div className='navbar-nav container-fluid'>
-                            <ul className='navbar-nav nav nav-underline container justify-content-around'>
+                        <div className='navbar-nav container-fluid px-1'>
+                            <ul className='navbar-nav nav nav-underline container justify-content-around px-1 py-3 text-center'>
                                 <li className='nav-item'>
                                     <Link className='nav-link' to='/'>Home</Link>
                                 </li>

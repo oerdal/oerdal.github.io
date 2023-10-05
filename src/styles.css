@@ -11,3 +11,7 @@ a[target="_blank"]::after {
   width: 30vh;
   height: 40vh;
 }
+
+.nav-item:hover {
+  background-color: aliceblue;
+}
