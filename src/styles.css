@@ -15,3 +15,10 @@ a[target="_blank"]::after {
 .nav-item:hover {
   background-color: aliceblue;
 }
+
+@media (max-width: 991px) {
+  #sidebar-div {
+    display: none;
+    visibility: hidden;
+  }
+}

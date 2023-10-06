@@ -6,7 +6,7 @@ const Sidebar = () => {
             <div className='card'>
                 <img src='./headshot.jpg' class='card-img-top' alt='sidebar logo' />
                 <div className='card-body'>
-                    <p className='card-text'>Hello! My name is Ozan Erdal. I'm a 24 year old recent grad looking for work.</p>
+                    <p className='card-text'>Hello! My name is Ozan Erdal. I'm a 25 year old recent M.S. graduate looking for work.</p>
                 </div>
             </div>
         </div>
