@@ -4,14 +4,14 @@ const Projects = () => {
     return (
         <div id='projects-div' className='col d-flex flex-column align-items-center'>
             <div id='projects-body' className='d-flex flex-column align-items-center justify-content-center flex-grow-1'>
-                <div id='544-paper-card' className='card my-1 w-50'>
+                <div id='544-paper-card' className='card my-1 w-75'>
                     <div className='card-body'>
                         <h5 className='card-title'>Multimodal SER</h5>
                         <h6 className='cart-subtitle'><a href='./csci_544_paper.pdf' target='_blank'>Report</a></h6>
                         <p className='card-text'>Group paper exploring multimodal speech emotion recognition (SER) using transformers.</p>
                     </div>
                 </div>
-                <div id='567-paper-card' className='card my-1 w-50'>
+                <div id='567-paper-card' className='card my-1 w-75'>
                     <div className='card-body'>
                         <h5 className='card-title'>Earthquake Damage Classification</h5>
                         <h6 className='cart-subtitle'><a href='./csci_567_paper.pdf' target='_blank'>Report</a></h6>
